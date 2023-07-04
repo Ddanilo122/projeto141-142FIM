@@ -1,0 +1,15 @@
+canvas{
+    background-color:white
+}
+.a1{
+    background-color: blue;
+    color:rgb(155, 247, 212);
+    border-radius: 30px;
+    box-shadow:5px 5px 5px black 
+}
+#pr{
+float:right
+}
+#an{
+    float:left
+}

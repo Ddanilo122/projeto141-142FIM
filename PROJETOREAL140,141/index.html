@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="arte.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <!--LINK DO P5 SOM-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.js" integrity="sha512-TU9AWtV5uUZPX8dbBAH8NQF1tSdigPRRT82vllAQ1Ke28puiqLA6ZVKxtUGlgrH6yWFnkKy+sE6luNEGH9ar0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--LINK DO ML5-->
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+
+    <!--LINK DO BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+    <!--LINK DO STYLE.CSS-->
+   
+
+
+
+
+    <!--LINK DO FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+</head>
+<body>
+    <center>
+    <h2 class="a1">
+        APP WEB MUSICA COM IA
+<br>
+<br>
+OBERSAVAÇAO:COLOQUE SEU PULSO ESQUERDO NA FRENTE DA WEBCAM PARA TOCAR A MUSICAR DE SUA PREFERENCIA.COLOQUE SEU PULSO DIREITO NA FRENTE DA WEBCAM PARA TOCAR A MUSICA TEMA DE SUA PREFERENCIA.
+
+
+    </h2>
+    <button id='start'class="btn btn-success"onclick='start()'>REPRODUZIR</button>
+    <br>
+    <button class="btn btn-danger"id="pr" onclick='pr()'>PROXIMA</button>
+<br>
+<button class="btn btn-info"onclick='an()' id="an">ANTERIOR</button>
+    </center>
+    <script src="fonte.js"></script>
+</body>
+</html>
